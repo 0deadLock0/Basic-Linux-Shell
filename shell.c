@@ -271,7 +271,7 @@ void run_cd(char tokens[][MaxSize],int size)
 	{
 		strcpy(tokens[0],"cat");
 		strcpy(tokens[1],AbsolutePath);
-		strcat(tokens[1],"help_cd.txt");
+		strcat(tokens[1],"CD/help_cd.txt");
 		run_cat(tokens,size);
 	}
 	else if(chdir(tokens[1])==-1)
@@ -321,7 +321,7 @@ void run_history(char tokens[][MaxSize],int size)
 	{
 		strcpy(tokens[0],"cat");
 		strcpy(tokens[1],AbsolutePath);
-		strcat(tokens[1],"help_history.txt");
+		strcat(tokens[1],"HISTORY/help_history.txt");
 		run_cat(tokens,size);
 	}
 	else if(strcmp(tokens[1],"-c")==0)
@@ -389,7 +389,7 @@ void run_pwd(char tokens[][MaxSize],int size)
 	{
 		strcpy(tokens[0],"cat");
 		strcpy(tokens[1],AbsolutePath);
-		strcat(tokens[1],"help_pwd.txt");
+		strcat(tokens[1],"PWD/help_pwd.txt");
 		run_cat(tokens,size);
 	}
 	else
@@ -402,7 +402,7 @@ void run_exit(char tokens[][MaxSize],int size)
 	{
 		strcpy(tokens[0],"cat");
 		strcpy(tokens[1],AbsolutePath);
-		strcat(tokens[1],"help_exit.txt");
+		strcat(tokens[1],"EXIT/help_exit.txt");
 		run_cat(tokens,size);
 	}
 	else if(size<=2)
@@ -418,7 +418,7 @@ void run_ls(char tokens[][MaxSize],int size)
 	char** modifiedTokens=(char**)calloc(size+1,MaxSize);
 	char absolutePath[MaxSize];
 	strcpy(absolutePath,AbsolutePath);
-	strcat(absolutePath,"./LS");
+	strcat(absolutePath,"LS/LS");
 	modifiedTokens[0]=absolutePath;
 	for(int i=1;i<size;++i)
 		modifiedTokens[i]=tokens[i];
@@ -445,7 +445,7 @@ void run_cat(char tokens[][MaxSize],int size)
 	char** modifiedTokens=(char**)calloc(size+1,MaxSize);
 	char absolutePath[MaxSize];
 	strcpy(absolutePath,AbsolutePath);
-	strcat(absolutePath,"./CAT");
+	strcat(absolutePath,"CAT/CAT");
 	modifiedTokens[0]=absolutePath;
 	for(int i=1;i<size;++i)
 		modifiedTokens[i]=tokens[i];
@@ -472,7 +472,7 @@ void run_date(char tokens[][MaxSize],int size)
 	char** modifiedTokens=(char**)calloc(size+1,MaxSize);
 	char absolutePath[MaxSize];
 	strcpy(absolutePath,AbsolutePath);
-	strcat(absolutePath,"./DATE");
+	strcat(absolutePath,"DATE/DATE");
 	modifiedTokens[0]=absolutePath;
 	for(int i=1;i<size;++i)
 		modifiedTokens[i]=tokens[i];
@@ -499,7 +499,7 @@ void run_rm(char tokens[][MaxSize],int size)
 	char** modifiedTokens=(char**)calloc(size+1,MaxSize);
 	char absolutePath[MaxSize];
 	strcpy(absolutePath,AbsolutePath);
-	strcat(absolutePath,"./RM");
+	strcat(absolutePath,"RM/RM");
 	modifiedTokens[0]=absolutePath;
 	for(int i=1;i<size;++i)
 		modifiedTokens[i]=tokens[i];
@@ -526,7 +526,7 @@ void run_mkdir(char tokens[][MaxSize],int size)
 	char** modifiedTokens=(char**)calloc(size+1,MaxSize);
 	char absolutePath[MaxSize];
 	strcpy(absolutePath,AbsolutePath);
-	strcat(absolutePath,"./MKDIR");
+	strcat(absolutePath,"MKDIR/MKDIR");
 	modifiedTokens[0]=absolutePath;
 	for(int i=1;i<size;++i)
 		modifiedTokens[i]=tokens[i];

@@ -17,12 +17,12 @@ shell.i: shell.c
 run: all shell
 	./shell
 
-all: LS.c CAT.c DATE.c RM.c MKDIR.c
-	gcc LS.c -o LS
-	gcc CAT.c -o CAT
-	gcc DATE.c -o DATE
-	gcc RM.c -o RM
-	gcc MKDIR.c -o MKDIR
+all: LS/LS.c CAT/CAT.c DATE/DATE.c RM/RM.c MKDIR/MKDIR.c
+	gcc LS/LS.c -o LS/LS
+	gcc CAT/CAT.c -o CAT/CAT
+	gcc DATE/DATE.c -o DATE/DATE
+	gcc RM/RM.c -o RM/RM
+	gcc MKDIR/MKDIR.c -o MKDIR/MKDIR
 	
 
 clean:
