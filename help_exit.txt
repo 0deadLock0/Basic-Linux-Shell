@@ -1,0 +1,19 @@
+                          Functions Manual
+                          
+NAME
+       exit
+
+SYNOPSIS
+       exit [OPTION]
+
+DESCRIPTION
+       Exit the shell.
+
+OPTION
+	exit
+		exit the shell
+	exit arg
+		exit with code arg
+	exit --help
+		display this help
+

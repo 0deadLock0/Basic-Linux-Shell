@@ -1,0 +1,237 @@
+history 5
+exit
+cd ..
+cd ..
+cd assignment1/1.2
+pwd
+cat -n main.c
+cd ..
+cd \
+cd /
+history
+ls
+cd  home
+cd deadlocks
+cd Codes
+ls -R
+ls -a
+ls -A
+cd assignment1
+ls -R
+cd 1.2
+cat history.txt
+history
+history 5
+pwd
+exit
+pwd
+history
+cd ..
+cd 1.1
+cat DATE.c LS.c
+cat main.c
+date
+ls -a
+exit
+cd --help
+exit --help
+pwd --help
+history --help
+history
+exit
+cd ..
+cd "test ing"
+ls
+rm h.txt
+ls
+exit
+cd ..
+cd "test ing"
+ls
+rm heel.c
+exit
+cd ..
+cd "test ing"
+ls
+rm hello.c
+exit
+cd ..
+cd "test ing"
+ls
+rm dsdff.c
+exit
+cd ..
+cd "test ing"
+ls -a
+rm hhelo.c
+ls
+exit
+cd ..
+cd "test ing"
+ls
+rm 1.c
+rm 12.c
+exit
+cd ..
+cd "test ing"
+ls
+rm 3.c
+rm -i 3.c
+exit
+cd ..
+cd "test ing"
+ls
+rm 1.c
+rm 2.c
+rm -i 3.c
+ls
+rm -v 4.c
+rm hell
+ls
+exit
+cd ..
+exit
+cd ..
+cd "test ing"
+rm 1.c 2.c 4.c
+ls
+rm -i 3.c 5.c
+ls
+rm -i 6.c 7.c
+exit
+rm -i 1.c 3.c
+ls
+rm -v 2.c 3.c 4.c
+exit
+cd ..
+cd "test ing"
+ls
+rm sdds.c
+ls
+rm sdsd.txt nofunny
+ls
+exit
+cd ..
+mkdir "testing 1"
+ls
+mkdir "testing 1"
+rm "testing 1"
+exit
+cd ..
+mkdir -v "hello"
+ls
+mkdir hello2 hello3
+ls
+mkdir -v hell ehe
+ls
+history
+cd ..
+exit
+mkdir fun
+ls
+exit
+mkdir --help
+mkdir temp
+mkdir temp2
+ls
+exit
+history
+history 5
+cat CAT.c DATE.c
+cat -n CAT.c DATE.c
+cd ..
+date
+date -u
+date -R
+ls
+ls -a
+ls -A
+mkdir 1.2
+mkdir 1.1
+mkdir 1.3
+cd 1.3
+ls
+cd 1.3
+cd 1.2
+cd 1.1
+cd ..
+cd 1.3
+hello
+cd --help
+cd 1.3
+ls
+cd "1.3 "
+cd "1.3"
+cd 1.3
+ls
+mkdir 1.3
+mkdir -v 1.3/temp
+mkdir -v 1.1/1.2
+cd 1.1
+ls
+cd 1.2
+exit -10
+cd ..
+cd 1.1
+cd 1.2
+rm 1.2
+exit --help
+exit 0
+cd ..
+mkdir "temp folder"
+ls
+cd "temp folder"
+cd ..
+rm temp folder
+cd "temp folder"
+rm --help
+exit
+pwd
+pwd -P
+exit
+mkdir "another temp"
+cd "another temp"
+exit
+mkdir "temp ?"
+cd "temp ?"
+exit
+cd "temp ?"
+exit
+cd "temp ?"
+exit
+cd ..
+rm temp
+rm non-existent
+exit
+
+history 5
+cd ..
+cd 1.1
+cat ma
+cat -n main.c
+cat -n main.c main.s
+cat -n Makefile
+exit
+cd --help
+exit
+cd /
+cd ~
+pwd --help
+ls --help
+cat --help
+echo --help
+rm --help
+mkdir --help
+dat --help
+date --help
+cat --help
+date --help
+ls --help
+mkdir --help
+rm --help
+cd --help
+echo --help
+pwd --help
+history --help
+exit --help
+exit

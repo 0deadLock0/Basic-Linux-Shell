@@ -1,0 +1,20 @@
+                          Functions Manual
+
+NAME
+       pwd
+
+SYNOPSIS
+       pwd [OPTION]
+
+DESCRIPTION
+       Print the full filename of the current working directory.
+
+OPTION
+	pwd
+		show current working director
+	pwd -P
+		avoid all symlinks
+	
+	pwd --help
+		display this help
+

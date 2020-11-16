@@ -1,0 +1,22 @@
+                          Functions Manual
+
+NAME
+       history
+
+SYNOPSIS
+       history [OPTION]
+
+DESCRIPTION
+       Many programs read input from the user a line at a time. 
+       The History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from  previous  lines  in composing new ones.
+
+OPTION
+	history
+		show the complete history
+	history n
+		show the recent n records in the history
+	history -c
+		clear the stored history
+	history --help
+		display this help
+

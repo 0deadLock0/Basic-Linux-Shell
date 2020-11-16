@@ -1,0 +1,25 @@
+                          Functions Manual
+                          
+NAME
+       cd
+
+SYNOPSIS
+       cd [OPTION] path
+
+DESCRIPTION
+       Change the shell working directory.
+
+OPTION
+	cd
+		change the directory to home directory
+	cd ~
+		change the directory to home directory
+	cd /
+		change the directory to root directory
+	cd path
+		change the directory to the directory provided in path
+	cd -P path
+		use the physical directory structure without following symbolic links
+	cd --help
+		display this help
+
