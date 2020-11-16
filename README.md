@@ -63,3 +63,7 @@ Specific Inbuilt Functions:
 	strftime() - to format the time form
 	gmtime() - to get utc time
 	localtime() - to get local time
+
+
+Known Bug:
+Using mkdir, changes access permission in the applied folder.
