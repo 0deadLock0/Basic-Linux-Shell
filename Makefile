@@ -1,3 +1,7 @@
+
+compile: all shell
+	
+
 shell: shell.o
 	gcc shell.o -o shell
 
@@ -10,7 +14,7 @@ shell.s: shell.i
 shell.i: shell.c
 	gcc -E shell.c -o shell.i
 
-run: shell
+run: all shell
 	./shell
 
 all: LS.c CAT.c DATE.c RM.c MKDIR.c
