@@ -54,7 +54,7 @@ void (*run_command[])(char[][MaxSize],int) =
 FILE *historyFile;
 char fileName[MaxSize];
 
-char AbsolutePath[MaxSize]= "/home/deadlocks/Codes/assignment1/1.2";
+char AbsolutePath[MaxSize]; //Abosulute path of directory where files are present. No need to manually assign path. Just in case if program is unable to get path itself
 
 int main()
 {
@@ -260,7 +260,7 @@ void run_cd(char tokens[][MaxSize],int size)
 			printf("Unable to open path\n");
 		if(chdir("home")==-1)
 			printf("Unable to open path\n");
-		char *user="deadlocks";
+		char *user;
 		user=getlogin();
 		if(user==NULL)
 			printf("Unable to open path\n");
